@@ -42,6 +42,21 @@
             border-color: #1A2651 !important;
         }
 
+        /* PROTECT EDITABLE LINKS FROM DEFAULT MAILCHIMP STYLING */
+        .editable-text-link a, .editable-text-link a * {
+            color: #1A2651 !important;
+            text-decoration: none !important;
+            font-weight: 700 !important;
+        }
+        .editable-button-primary a, .editable-button-primary a * {
+            color: #ffffff !important;
+            text-decoration: none !important;
+        }
+        .editable-button-secondary a, .editable-button-secondary a * {
+            color: #1A2651 !important;
+            text-decoration: none !important;
+        }
+
         /* RESPONSIVE MOBILE OVERRIDES */
         @media screen and (max-width: 600px) {
             .email-container { width: 100% !important; padding: 10px !important; }
@@ -78,6 +93,13 @@
 </head>
 <body style="margin: 0; padding: 0; background-color: #F8F9FA;">
 
+
+    <!-- Deep Blue Authority Bar at top of template canvas -->
+    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+        <tr>
+            <td bgcolor="#1A2651" height="5" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
+        </tr>
+    </table>
 
     <!-- Main Outer Wrapper -->
     <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8F9FA">
@@ -200,8 +222,8 @@
                                                 <td align="left">
                                                     <table border="0" cellpadding="0" cellspacing="0">
                                                         <tr>
-                                                            <td align="center" bgcolor="#1A2651" style="border-radius: 25px;">
-                                                                <a class="cta-btn-primary" href="https://andrews-partnership.com/reputation-leadership-2026/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 13px; color: #ffffff; text-decoration: none; padding: 13px 35px; display: inline-block; border-radius: 25px; background-color: #1A2651; border: 1px solid #1A2651; letter-spacing: 1px; text-transform: uppercase;" mc:edit="hero_cta">
+                                                            <td align="center" bgcolor="#1A2651" class="editable-button-primary" style="border-radius: 25px;" mc:edit="hero_cta_block">
+                                                                <a class="cta-btn-primary" href="https://andrews-partnership.com/reputation-leadership-2026/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 13px; color: #ffffff; text-decoration: none; padding: 13px 35px; display: inline-block; border-radius: 25px; background-color: #1A2651; border: 1px solid #1A2651; letter-spacing: 1px; text-transform: uppercase;">
                                                                     Read the Report &rarr;
                                                                 </a>
                                                             </td>
@@ -266,8 +288,8 @@
                                                                     </tr>
                                                                     <!-- Elegant clean text anchor link -->
                                                                     <tr>
-                                                                        <td align="left">
-                                                                            <a href="https://andrews-partnership.com/insights/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 13px; color: #1A2651; text-decoration: none;" mc:edit="secondary_cta">
+                                                                        <td align="left" class="editable-text-link" mc:edit="secondary_cta_block">
+                                                                            <a href="https://andrews-partnership.com/insights/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 13px; color: #1A2651; text-decoration: none;">
                                                                                 Read Article &rarr;
                                                                             </a>
                                                                         </td>
@@ -296,8 +318,8 @@
                                             
                                             <!-- Module Title -->
                                             <tr>
-                                                <td align="center" class="section-title" style="font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 18px; color: #1A2651; padding-bottom: 30px; text-transform: uppercase; letter-spacing: 2px; text-align: center;" mc:edit="services_title">
-                                                    Reputation Leadership Services
+                                                <td align="center" class="section-title" style="font-family: 'Roboto', sans-serif; font-weight: 700; font-size: 16px; color: #1A2651; padding-bottom: 30px; text-transform: uppercase; letter-spacing: 2px; text-align: center;" mc:edit="services_title">
+                                                    Global Reputation Leadership Services
                                                 </td>
                                             </tr>
                                             
@@ -318,17 +340,17 @@
                                                                     </tr>
                                                                     <tr>
                                                                         <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; text-align: center;" mc:edit="service_headline_1">
-                                                                            Executive Search
+                                                                            Search
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
                                                                         <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; text-align: center;" mc:edit="service_description_1">
-                                                                            Identifying and securing elite global reputation and corporate affairs talent.
+                                                                            Executive search focusing exclusively on corporate affairs and communications leaders.
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="text-align: center;">
-                                                                            <a href="https://andrews-partnership.com/services/search/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;" mc:edit="service_link_1">
+                                                                        <td align="center" class="editable-text-link" style="text-align: center;" mc:edit="service_link_block_1">
+                                                                            <a href="https://andrews-partnership.com/services/search/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;">
                                                                                 Learn More &rarr;
                                                                             </a>
                                                                         </td>
@@ -356,8 +378,8 @@
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="text-align: center;">
-                                                                            <a href="https://andrews-partnership.com/services/function-design-structure/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;" mc:edit="service_link_2">
+                                                                        <td align="center" class="editable-text-link" style="text-align: center;" mc:edit="service_link_block_2">
+                                                                            <a href="https://andrews-partnership.com/services/function-design-structure/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;">
                                                                                 Learn More &rarr;
                                                                             </a>
                                                                         </td>
@@ -385,8 +407,8 @@
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="text-align: center;">
-                                                                            <a href="https://andrews-partnership.com/services/leadership-development/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;" mc:edit="service_link_3">
+                                                                        <td align="center" class="editable-text-link" style="text-align: center;" mc:edit="service_link_block_3">
+                                                                            <a href="https://andrews-partnership.com/services/leadership-development/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;">
                                                                                 Learn More &rarr;
                                                                             </a>
                                                                         </td>
@@ -453,8 +475,8 @@
                                                 <td align="left">
                                                     <table border="0" cellpadding="0" cellspacing="0">
                                                         <tr>
-                                                            <td align="center" bgcolor="#ffffff" style="border-radius: 25px; border: 1px solid #1A2651;">
-                                                                <a class="cta-btn-secondary" href="mailto:events@andrews-partnership.com?subject=Roundtable%20RSVP%20October%202026" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 12px; color: #1A2651; text-decoration: none; padding: 11px 30px; display: inline-block; border-radius: 25px; background-color: #ffffff; border: 1px solid #ffffff; letter-spacing: 1px; text-transform: uppercase;" mc:edit="event_cta">
+                                                            <td align="center" bgcolor="#ffffff" class="editable-button-secondary" style="border-radius: 25px; border: 1px solid #1A2651;" mc:edit="event_cta_block">
+                                                                <a class="cta-btn-secondary" href="mailto:events@andrews-partnership.com?subject=Roundtable%20RSVP%20October%202026" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 12px; color: #1A2651; text-decoration: none; padding: 11px 30px; display: inline-block; border-radius: 25px; background-color: #ffffff; border: 1px solid #ffffff; letter-spacing: 1px; text-transform: uppercase;">
                                                                     Request invitation &rarr;
                                                                 </a>
                                                             </td>
@@ -487,8 +509,8 @@
                                                     <!-- Symmetrical LinkedIn Pill CTA Block (VML Outlined) -->
                                                     <table border="0" cellpadding="0" cellspacing="0" align="center">
                                                         <tr>
-                                                            <td align="center" bgcolor="#ffffff" style="border-radius: 25px;">
-                                                                <a class="cta-btn-primary" href="https://www.linkedin.com/company/andrews-partnership/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 12px; color: #1A2651; text-decoration: none; padding: 12px 30px; display: inline-block; border-radius: 25px; background-color: #ffffff; border: 1px solid #ffffff; letter-spacing: 1px; text-transform: uppercase;" mc:edit="linkedin_cta">
+                                                            <td align="center" bgcolor="#ffffff" class="editable-button-secondary" style="border-radius: 25px;" mc:edit="linkedin_cta_block">
+                                                                <a class="cta-btn-primary" href="https://www.linkedin.com/company/andrews-partnership/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 12px; color: #1A2651; text-decoration: none; padding: 12px 30px; display: inline-block; border-radius: 25px; background-color: #ffffff; border: 1px solid #ffffff; letter-spacing: 1px; text-transform: uppercase;">
                                                                     Connect on LinkedIn
                                                                 </a>
                                                             </td>
@@ -513,8 +535,15 @@
                                             
                                             <!-- Mini Footer AP Brand Mark (Editable image) -->
                                             <tr>
-                                                <td class="logo-cell" align="left" style="padding-bottom: 25px;" mc:edit="footer_logo">
-                                                    <img class="mobile-center-image" src="https://andrews-partnership.com/wp-content/uploads/2025/11/Andrews-Partnership-logo-v1.png" alt="Andrews Partnership" width="150" style="display: block; border: 0;" />
+                                                <td class="logo-cell" align="center" style="padding-bottom: 15px;" mc:edit="footer_logo">
+                                                    <img class="mobile-center-image" src="https://andrews-partnership.com/wp-content/uploads/2025/11/Andrews-Partnership-logo-v1.png" alt="Andrews Partnership" width="150" style="display: block; margin: 0 auto; border: 0;" />
+                                                </td>
+                                            </tr>
+                                            
+                                            <!-- Global Regions List -->
+                                            <tr>
+                                                <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 8px; font-weight: 400; color: #777777; letter-spacing: 1px; text-transform: uppercase; line-height: 22px; padding-bottom: 30px;" mc:edit="footer_regions">
+                                                    Africa &middot; Asia &middot; Australia &middot; China &middot; Europe &middot; Latin America &middot; Middle East &middot; United States
                                                 </td>
                                             </tr>
                                             
