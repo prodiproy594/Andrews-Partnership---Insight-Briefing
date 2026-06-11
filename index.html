@@ -94,13 +94,6 @@
 <body style="margin: 0; padding: 0; background-color: #F8F9FA;">
 
 
-    <!-- Deep Blue Authority Bar at top of template canvas -->
-    <table border="0" cellpadding="0" cellspacing="0" width="100%">
-        <tr>
-            <td bgcolor="#1A2651" height="5" style="font-size: 1px; line-height: 1px;">&nbsp;</td>
-        </tr>
-    </table>
-
     <!-- Main Outer Wrapper -->
     <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8F9FA">
         <tr>
@@ -463,22 +456,46 @@
                                                 </td>
                                             </tr>
                                             
-                                            <!-- Event Summary -->
+                                            <!-- Event Split Content (Speaker Image Left, Summary & CTA Right) -->
                                             <tr>
-                                                <td style="font-family: 'Raleway', Arial, sans-serif; font-size: 14px; line-height: 22px; color: #555555; padding-bottom: 25px;" mc:edit="event_summary">
-                                                    Join Katrina Andrews and special guest speakers for an exclusive, closed-door roundtable discussing structural design matrices and functional metrics for international government and corporate affairs directors.
-                                                </td>
-                                            </tr>
-                                            
-                                            <!-- Event RSVP (Email/CTA pill button) -->
-                                            <tr>
-                                                <td align="left">
-                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                <td>
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                                         <tr>
-                                                            <td align="center" bgcolor="#ffffff" class="editable-button-secondary" style="border-radius: 25px; border: 1px solid #1A2651;" mc:edit="event_cta_block">
-                                                                <a class="cta-btn-secondary" href="mailto:events@andrews-partnership.com?subject=Roundtable%20RSVP%20October%202026" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 12px; color: #1A2651; text-decoration: none; padding: 11px 30px; display: inline-block; border-radius: 25px; background-color: #ffffff; border: 1px solid #ffffff; letter-spacing: 1px; text-transform: uppercase;">
-                                                                    Request invitation &rarr;
-                                                                </a>
+                                                            <!-- Speaker Image Left Slot -->
+                                                            <td class="column-stack mobile-bottom-space" width="180" valign="top" style="padding-right: 20px;">
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                    <tr>
+                                                                        <td style="border-radius: 4px; overflow: hidden;" mc:edit="event_speaker_image">
+                                                                            <img class="mobile-full-width" src="https://andrews-partnership.com/wp-content/uploads/2026/01/Chantal.jpg" alt="Event Speaker" width="180" style="width: 100%; max-width: 180px; display: block; border: 0; border-radius: 4px;" />
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                            <!-- Summary Copy & CTA Right Slot -->
+                                                            <td class="column-stack" valign="top" style="font-family: 'Raleway', Arial, sans-serif;">
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                                    <!-- Event Summary -->
+                                                                    <tr>
+                                                                        <td style="font-family: 'Raleway', Arial, sans-serif; font-size: 14px; line-height: 22px; color: #555555; padding-bottom: 25px;" mc:edit="event_summary">
+                                                                            Join Katrina Andrews and special guest speakers for an exclusive, closed-door roundtable discussing structural design matrices and functional metrics for international government and corporate affairs directors.
+                                                                        </td>
+                                                                    </tr>
+                                                                    
+                                                                    <!-- Event RSVP (Email/CTA pill button) -->
+                                                                    <tr>
+                                                                        <td align="left">
+                                                                            <table border="0" cellpadding="0" cellspacing="0">
+                                                                                <tr>
+                                                                                    <td align="center" bgcolor="#ffffff" class="editable-button-secondary" style="border-radius: 25px; border: 1px solid #1A2651;" mc:edit="event_cta_block">
+                                                                                        <a class="cta-btn-secondary" href="mailto:events@andrews-partnership.com?subject=Roundtable%20RSVP%20October%202026" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: bold; font-size: 12px; color: #1A2651; text-decoration: none; padding: 11px 30px; display: inline-block; border-radius: 25px; background-color: #ffffff; border: 1px solid #ffffff; letter-spacing: 1px; text-transform: uppercase;">
+                                                                                            Request invitation &rarr;
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
                                                             </td>
                                                         </tr>
                                                     </table>
