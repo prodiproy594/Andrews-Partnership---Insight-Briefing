@@ -59,7 +59,8 @@
 
         /* RESPONSIVE MOBILE OVERRIDES */
         @media screen and (max-width: 600px) {
-            .email-container { width: 100% !important; padding: 10px !important; }
+            .outer-wrapper { padding-left: 10px !important; padding-right: 10px !important; }
+            .email-container { width: 100% !important; max-width: 100% !important; }
             .content-padding { padding-left: 20px !important; padding-right: 20px !important; }
             
             /* Responsive layout stacked states */
@@ -97,7 +98,7 @@
     <!-- Main Outer Wrapper -->
     <table border="0" cellpadding="0" cellspacing="0" width="100%" bgcolor="#F8F9FA">
         <tr>
-            <td align="center" style="padding: 20px 0 60px 0;">
+            <td align="center" class="outer-wrapper" style="padding: 20px 0 60px 0;">
                 
                 <!-- Core Containment System (600px Max-Width Grid) -->
                 <!--[if (gte mso 9)|(IE)]>
@@ -105,7 +106,7 @@
                 <tr>
                 <td align="center" valign="top" width="600">
                 <![endif]-->
-                <table border="0" cellpadding="0" cellspacing="0" width="600" class="email-container" style="max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 4px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
+                <table border="0" cellpadding="0" cellspacing="0" width="100%" class="email-container" style="max-width: 600px; width: 100%; background-color: #ffffff; border-radius: 4px; overflow: hidden; box-shadow: 0 4px 12px rgba(0,0,0,0.05);">
                     
                     <!-- 1. HEADER MODULE (AP Logo, Edition Marker, Masthead lines) -->
                     <tr>
@@ -162,7 +163,7 @@
                                                         <tr>
                                                             <td style="background-color: #1A2651; border-radius: 4px; overflow: hidden;" mc:edit="hero_image">
                                                                 <a href="https://andrews-partnership.com/reputation-leadership-2026/" target="_blank">
-                                                                    <img src="https://andrews-partnership.com/wp-content/uploads/2026/03/Influence-in-the-age-of-AI-Four-shifts-shaping-reputation-leadership-in-2026-v1.jpg" alt="Influence in the Age of AI" width="520" style="width: 100%; max-width: 520px; display: block; border: 0;" />
+                                                                    <img class="mobile-full-width" src="https://andrews-partnership.com/wp-content/uploads/2026/03/Influence-in-the-age-of-AI-Four-shifts-shaping-reputation-leadership-in-2026-v1.jpg" alt="Influence in the Age of AI" width="520" style="width: 100%; max-width: 520px; display: block; border: 0;" />
                                                                 </a>
                                                             </td>
                                                         </tr>
