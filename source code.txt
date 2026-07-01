@@ -1,8 +1,8 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--[if gte mso 9]>
     <xml>
         <o:OfficeDocumentSettings>
@@ -14,74 +14,9 @@
     <title>Andrews Partnership - Insight Briefing</title>
     
     <!-- Google Fonts for Webmail / Modern Email Client Support -->
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&family=Roboto:wght@700&display=swap" rel="stylesheet">
     
-    <style type="text/css">
-        /* RESET CSS - Cleaning default rendering behaviors on popular mail clients */
-        body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
-        table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; border-collapse: collapse !important; }
-        body { height: 100% !important; margin: 0 !important; padding: 0 !important; width: 100% !important; background-color: #F8F9FA; }
-        img { border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; -ms-interpolation-mode: bicubic; }
-        
-        /* HOVER STATES FOR INTERACTIVE BUTTONS */
-        .cta-btn-primary {
-            transition: all 0.3s ease !important;
-        }
-        .cta-btn-primary:hover {
-            background-color: #dddcc4 !important;
-            color: #1A2651 !important;
-            border-color: #dddcc4 !important;
-        }
-        
-        .cta-btn-secondary {
-            transition: all 0.3s ease !important;
-        }
-        .cta-btn-secondary:hover {
-            background-color: #1A2651 !important;
-            color: #ffffff !important;
-            border-color: #1A2651 !important;
-        }
-
-        /* PROTECT EDITABLE LINKS FROM DEFAULT MAILCHIMP STYLING */
-        .editable-text-link a, .editable-text-link a * {
-            color: #1A2651 !important;
-            text-decoration: none !important;
-            font-weight: 700 !important;
-        }
-        .editable-button-primary a, .editable-button-primary a * {
-            color: #ffffff !important;
-            text-decoration: none !important;
-        }
-        .editable-button-secondary a, .editable-button-secondary a * {
-            color: #1A2651 !important;
-            text-decoration: none !important;
-        }
-
-        /* RESPONSIVE MOBILE OVERRIDES */
-        @media screen and (max-width: 600px) {
-            .outer-wrapper { padding-left: 10px !important; padding-right: 10px !important; }
-            .email-container { width: 100% !important; max-width: 100% !important; }
-            .content-padding { padding-left: 20px !important; padding-right: 20px !important; }
-            
-            /* Responsive layout stacked states */
-            .column-stack { display: block !important; width: 100% !important; max-width: 100% !important; padding-right: 0 !important; padding-left: 0 !important; box-sizing: border-box !important; }
-            .mobile-bottom-space { padding-bottom: 25px !important; }
-            .mobile-center-text { text-align: center !important; }
-            .mobile-center-image { margin: 0 auto !important; display: block !important; }
-            .mobile-full-width { width: 100% !important; max-width: 100% !important; height: auto !important; }
-            
-            /* Typography Scale adjust for mobile */
-            .header-date { text-align: center !important; padding-top: 15px !important; }
-            .hero-title { font-size: 24px !important; line-height: 32px !important; }
-            .section-title { font-size: 18px !important; line-height: 24px !important; }
-            .article-title { font-size: 20px !important; line-height: 26px !important; }
-
-            /* Footer social and alignment adjustments for mobile */
-            .footer-cell { text-align: center !important; }
-            .social-links { text-align: center !important; padding-top: 20px !important; padding-left: 0 !important; }
-            .social-links img { margin: 0 auto !important; display: inline-block !important; }
-        }
-    </style>
+    
 
     <!--[if mso]>
     <style type="text/css">
@@ -91,7 +26,154 @@
         }
     </style>
     <![endif]-->
-</head>
+<style type="text/css">
+		body,table,td,a{
+			-webkit-text-size-adjust:100%;
+			-ms-text-size-adjust:100%;
+		}
+		table,td{
+			mso-table-lspace:0pt;
+			mso-table-rspace:0pt;
+			border-collapse:collapse !important;
+		}
+		body{
+			height:100% !important;
+			margin:0 !important;
+			padding:0 !important;
+			width:100% !important;
+			background-color:#F8F9FA;
+		}
+		img{
+			border:0;
+			height:auto;
+			line-height:100%;
+			outline:none;
+			text-decoration:none;
+			-ms-interpolation-mode:bicubic;
+		}
+		.cta-btn-primary{
+			transition:all 0.3s ease !important;
+		}
+		.cta-btn-primary:hover{
+			background-color:#dddcc4 !important;
+			color:#1A2651 !important;
+			border-color:#dddcc4 !important;
+		}
+		.cta-btn-secondary{
+			transition:all 0.3s ease !important;
+		}
+		.cta-btn-secondary:hover{
+			background-color:#1A2651 !important;
+			color:#ffffff !important;
+			border-color:#1A2651 !important;
+		}
+		.editable-text-link a,.editable-text-link a *{
+			color:#1A2651 !important;
+			text-decoration:none !important;
+			font-weight:700 !important;
+		}
+		.editable-button-primary a,.editable-button-primary a *{
+			color:#ffffff !important;
+			text-decoration:none !important;
+		}
+		.editable-button-secondary a,.editable-button-secondary a *{
+			color:#1A2651 !important;
+			text-decoration:none !important;
+		}
+	@media screen and (max-width: 600px){
+		.outer-wrapper{
+			padding-left:10px !important;
+			padding-right:10px !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.email-container{
+			width:100% !important;
+			max-width:100% !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.content-padding{
+			padding-left:20px !important;
+			padding-right:20px !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.column-stack{
+			display:block !important;
+			width:100% !important;
+			max-width:100% !important;
+			padding-right:0 !important;
+			padding-left:0 !important;
+			box-sizing:border-box !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.mobile-bottom-space{
+			padding-bottom:25px !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.mobile-center-text{
+			text-align:center !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.mobile-center-image{
+			margin:0 auto !important;
+			display:block !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.mobile-full-width{
+			width:100% !important;
+			max-width:100% !important;
+			height:auto !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.header-date{
+			text-align:center !important;
+			padding-top:15px !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.hero-title{
+			font-size:24px !important;
+			line-height:32px !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.section-title{
+			font-size:18px !important;
+			line-height:24px !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.article-title{
+			font-size:20px !important;
+			line-height:26px !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.footer-cell{
+			text-align:center !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.social-links{
+			text-align:center !important;
+			padding-top:20px !important;
+			padding-left:0 !important;
+		}
+
+}	@media screen and (max-width: 600px){
+		.social-links img{
+			margin:0 auto !important;
+			display:inline-block !important;
+		}
+
+}</style></head>
 <body style="margin: 0; padding: 0; background-color: #F8F9FA;">
 
 
@@ -111,7 +193,7 @@
                     <!-- 1. HEADER MODULE (AP Logo, Edition Marker, Masthead lines) -->
                     <tr>
                         <td align="center">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="HeaderModule" mc:hideable>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="HeaderModule">
                                 <tr>
                                     <td class="content-padding" style="padding: 40px 40px 30px 40px; border-bottom: 2px solid #DEDDC8;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -119,7 +201,7 @@
                                                 <!-- AP Brand Logo Slot (Editable image with locked size parameters) -->
                                                 <td class="column-stack mobile-center-text" align="left" valign="middle" mc:edit="header_logo">
                                                     <a href="https://andrews-partnership.com" target="_blank">
-                                                        <img class="mobile-center-image" src="https://andrews-partnership.com/wp-content/uploads/2025/11/Andrews-Partnership-logo-v1.png" alt="Andrews Partnership" width="190" style="display: block; font-family: 'Roboto', Arial, sans-serif; font-weight: bold; color: #1A2651; font-size: 18px; border: 0;" />
+                                                        <img class="mobile-center-image" src="https://andrews-partnership.com/wp-content/uploads/2025/11/Andrews-Partnership-logo-v1.png" alt="Andrews Partnership" width="190" style="display: block; font-family: 'Roboto', Arial, sans-serif; font-weight: bold; color: #1A2651; font-size: 18px; border: 0;">
                                                     </a>
                                                 </td>
                                                 <!-- Edition/Date Stamp (Editable, uppercase tracked lettering) -->
@@ -137,7 +219,7 @@
                     <!-- 2. HERO THOUGHT LEADERSHIP BLOCK (Primary Featured Article) -->
                     <tr>
                         <td align="center">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="HeroArticleBlock" mc:hideable>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="HeroArticleBlock">
                                 <tr>
                                     <td class="content-padding" style="padding: 40px 40px; border-bottom: 1px solid #DEDDC8;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -163,7 +245,7 @@
                                                         <tr>
                                                             <td style="background-color: #1A2651; border-radius: 4px; overflow: hidden;" mc:edit="hero_image">
                                                                 <a href="https://andrews-partnership.com/reputation-leadership-2026/" target="_blank">
-                                                                    <img class="mobile-full-width" src="https://andrews-partnership.com/wp-content/uploads/2026/03/Influence-in-the-age-of-AI-Four-shifts-shaping-reputation-leadership-in-2026-v1.jpg" alt="Influence in the Age of AI" width="520" style="width: 100%; max-width: 520px; display: block; border: 0;" />
+                                                                    <img class="mobile-full-width" src="https://andrews-partnership.com/wp-content/uploads/2026/03/Influence-in-the-age-of-AI-Four-shifts-shaping-reputation-leadership-in-2026-v1.jpg" alt="Influence in the Age of AI" width="520" style="width: 100%; max-width: 520px; display: block; border: 0;">
                                                                 </a>
                                                             </td>
                                                         </tr>
@@ -236,7 +318,7 @@
                     <!-- 3. SECONDARY THOUGHT LEADERSHIP BLOCK (Smaller, visually subordinate) -->
                     <tr>
                         <td align="center">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="SecondaryArticleBlock" mc:hideable>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="SecondaryArticleBlock">
                                 <tr>
                                     <td class="content-padding" style="padding: 40px 40px; border-bottom: 1px solid #DEDDC8;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -266,7 +348,7 @@
                                                                     <tr>
                                                                         <td style="border-radius: 4px; overflow: hidden;" mc:edit="secondary_image">
                                                                             <a href="https://andrews-partnership.com/insights/" target="_blank">
-                                                                                <img class="mobile-full-width" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=300&q=80" alt="Government Relations" width="180" style="width: 100%; max-width: 180px; display: block; border: 0; border-radius: 4px;" />
+                                                                                <img class="mobile-full-width" src="https://images.unsplash.com/photo-1451187580459-43490279c0fa?auto=format&fit=crop&w=400&h=300&q=80" alt="Government Relations" width="180" style="width: 100%; max-width: 180px; display: block; border: 0; border-radius: 4px;">
                                                                             </a>
                                                                         </td>
                                                                     </tr>
@@ -305,7 +387,7 @@
                     <!-- 4. SERVICES MODULE (AP's Search, Structure, and Development Offerings) -->
                     <tr>
                         <td align="center">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="ServicesModule" mc:hideable>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="ServicesModule">
                                 <tr>
                                     <td class="content-padding" bgcolor="#DEDDC8" style="padding: 40px 40px 45px 40px; border-bottom: 1px solid #DEDDC8;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -317,28 +399,28 @@
                                                 </td>
                                             </tr>
                                             
-                                            <!-- Symmetrical 3-Column Services Showcase -->
+                                            <!-- Symmetrical Services Grid (5 Items in 2 Rows) -->
                                             <tr>
-                                                <td>
+                                                <td align="center">
                                                     <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        
+                                                        <!-- ROW 1: TOP 3 SERVICES -->
                                                         <tr>
-                                                            
-                                                            <!-- Service Column 1: Search -->
-                                                            <td class="column-stack mobile-bottom-space" width="31%" valign="top" style="padding-right: 3%;">
+                                                            <!-- Service 1: Search -->
+                                                            <td class="column-stack mobile-bottom-space" width="33%" valign="top" style="padding-bottom: 25px;">
                                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-                                                                    <!-- Brand Guideline Aligned Icon (Locked PNG Asset) -->
                                                                     <tr>
                                                                         <td align="center" style="padding-bottom: 15px;" mc:edit="service_icon_1">
                                                                             <img src="https://andrews-partnership.com/wp-content/uploads/2026/01/Search.png" alt="Search" width="42" style="display: block; margin: 0 auto; width: 42px; max-width: 42px; border: 0;" />
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; text-align: center;" mc:edit="service_headline_1">
+                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_headline_1">
                                                                             Search
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; text-align: center;" mc:edit="service_description_1">
+                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_description_1">
                                                                             Executive search focusing exclusively on corporate affairs and communications leaders.
                                                                         </td>
                                                                     </tr>
@@ -352,22 +434,21 @@
                                                                 </table>
                                                             </td>
                                                             
-                                                            <!-- Service Column 2: Design -->
-                                                            <td class="column-stack mobile-bottom-space" width="31%" valign="top" style="padding-right: 3%; padding-left: 1%;">
+                                                            <!-- Service 2: Design -->
+                                                            <td class="column-stack mobile-bottom-space" width="34%" valign="top" style="padding-bottom: 25px;">
                                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-                                                                    <!-- Brand Guideline Aligned Icon (Locked PNG Asset) -->
                                                                     <tr>
                                                                         <td align="center" style="padding-bottom: 15px;" mc:edit="service_icon_2">
                                                                             <img src="https://andrews-partnership.com/wp-content/uploads/2026/01/Function-Design.png" alt="Function Design" width="42" style="display: block; margin: 0 auto; width: 42px; max-width: 42px; border: 0;" />
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; text-align: center;" mc:edit="service_headline_2">
+                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_headline_2">
                                                                             Function Design
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; text-align: center;" mc:edit="service_description_2">
+                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_description_2">
                                                                             Optimizing functional frameworks and reporting matrices for institutional scale.
                                                                         </td>
                                                                     </tr>
@@ -381,22 +462,21 @@
                                                                 </table>
                                                             </td>
                                                             
-                                                            <!-- Service Column 3: Coaching -->
-                                                            <td class="column-stack" width="31%" valign="top" style="padding-left: 2%;">
+                                                            <!-- Service 3: Coaching -->
+                                                            <td class="column-stack mobile-bottom-space" width="33%" valign="top" style="padding-bottom: 25px;">
                                                                 <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
-                                                                    <!-- Brand Guideline Aligned Icon (Locked PNG Asset) -->
                                                                     <tr>
                                                                         <td align="center" style="padding-bottom: 15px;" mc:edit="service_icon_3">
                                                                             <img src="https://andrews-partnership.com/wp-content/uploads/2026/01/Leadership-Development.png" alt="Leadership Coaching" width="42" style="display: block; margin: 0 auto; width: 42px; max-width: 42px; border: 0;" />
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; text-align: center;" mc:edit="service_headline_3">
+                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_headline_3">
                                                                             Leadership Coaching
                                                                         </td>
                                                                     </tr>
                                                                     <tr>
-                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; text-align: center;" mc:edit="service_description_3">
+                                                                        <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_description_3">
                                                                             Nurturing senior executives and teams with data-backed assessment models.
                                                                         </td>
                                                                     </tr>
@@ -409,8 +489,76 @@
                                                                     </tr>
                                                                 </table>
                                                             </td>
-                                                            
                                                         </tr>
+                                                        <!-- END ROW 1 -->
+
+                                                        <!-- ROW 2: BOTTOM 2 SERVICES (Centered) -->
+                                                        <tr>
+                                                            <td colspan="3" align="center">
+                                                                <!-- Inner table explicitly set to 75% to center the two items perfectly -->
+                                                                <table border="0" cellpadding="0" cellspacing="0" width="75%" class="mobile-full-width" align="center">
+                                                                    <tr>
+                                                                        <!-- Service 4: Leadership Assessment -->
+                                                                        <td class="column-stack mobile-bottom-space" width="50%" valign="top">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+                                                                                <tr>
+                                                                                    <td align="center" style="padding-bottom: 15px;" mc:edit="service_icon_4">
+                                                                                        <img src="https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/6122e0d8-8206-7df1-cbcd-a76641026aeb.png" alt="Leadership Assessment" width="42" style="display: block; margin: 0 auto; width: 42px; max-width: 42px; border: 0;" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_headline_4">
+                                                                                        Leadership Assessment
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_description_4">
+                                                                                        Hogan assessments reveal leadership strengths, motivations and potential derailers.
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" class="editable-text-link" style="text-align: center;" mc:edit="service_link_block_4">
+                                                                                        <a href="https://andrews-partnership.com/services/leadership-development/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;">
+                                                                                            Learn More &rarr;
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                        
+                                                                        <!-- Service 5: Market Mapping -->
+                                                                        <td class="column-stack" width="50%" valign="top">
+                                                                            <table border="0" cellpadding="0" cellspacing="0" width="100%" align="center">
+                                                                                <tr>
+                                                                                    <td align="center" style="padding-bottom: 15px;" mc:edit="service_icon_5">
+                                                                                        <img src="https://mcusercontent.com/fb8c22a3b204be417cc4adea2/images/b80a68fe-73e4-bf07-aa5a-0fd1ac632ad6.png" alt="Market Mapping" width="42" style="display: block; margin: 0 auto; width: 42px; max-width: 42px; border: 0;" />
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 14px; color: #1A2651; padding-bottom: 10px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_headline_5">
+                                                                                        Market Mapping
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" style="font-family: 'Raleway', Arial, sans-serif; font-size: 12px; line-height: 18px; color: #555555; padding-bottom: 15px; padding-left: 10px; padding-right: 10px; text-align: center;" mc:edit="service_description_5">
+                                                                                        Market insight into external talent to support leadership succession planning.
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td align="center" class="editable-text-link" style="text-align: center;" mc:edit="service_link_block_5">
+                                                                                        <a href="https://andrews-partnership.com/services/succession/" target="_blank" style="font-family: 'Raleway', Arial, sans-serif; font-weight: 700; font-size: 11px; color: #1A2651; text-decoration: none; text-transform: uppercase; letter-spacing: 1px;">
+                                                                                            Learn More &rarr;
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </td>
+                                                        </tr>
+                                                        <!-- END ROW 2 -->
+                                                        
                                                     </table>
                                                 </td>
                                             </tr>
@@ -425,7 +573,7 @@
                     <!-- 5. EVENT MODULE (Modular promotional box - hideable) -->
                     <tr>
                         <td align="center">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="EventBlock" mc:hideable>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="EventBlock">
                                 <tr>
                                     <td class="content-padding" style="padding: 40px 40px; border-bottom: 1px solid #DEDDC8;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -513,7 +661,7 @@
                     <!-- 6. LINKEDIN CTA MODULE (Branded follower driver) -->
                     <tr>
                         <td align="center">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="LinkedInBlock" mc:hideable>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="LinkedInBlock">
                                 <tr>
                                     <td class="content-padding" bgcolor="#1A2651" style="padding: 35px 40px; text-align: center;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -546,7 +694,7 @@
                     <!-- 7. FOOTER MODULE (Locations, AP branding, legal compliance strings) -->
                     <tr>
                         <td align="center">
-                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="FooterModule" mc:hideable>
+                            <table border="0" cellpadding="0" cellspacing="0" width="100%" class="section" mc:repeatable="FooterModule">
                                 <tr>
                                     <td class="content-padding" style="padding: 45px 40px 40px 40px; border-top: 1px solid #DEDDC8;">
                                         <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -554,7 +702,7 @@
                                             <!-- Mini Footer AP Brand Mark (Editable image) -->
                                             <tr>
                                                 <td class="logo-cell" align="center" style="padding-bottom: 15px;" mc:edit="footer_logo">
-                                                    <img class="mobile-center-image" src="https://andrews-partnership.com/wp-content/uploads/2025/11/Andrews-Partnership-logo-v1.png" alt="Andrews Partnership" width="150" style="display: block; margin: 0 auto; border: 0;" />
+                                                    <img class="mobile-center-image" src="https://andrews-partnership.com/wp-content/uploads/2025/11/Andrews-Partnership-logo-v1.png" alt="Andrews Partnership" width="150" style="display: block; margin: 0 auto; border: 0;">
                                                 </td>
                                             </tr>
                                             
@@ -573,18 +721,18 @@
                                                             <!-- Left Column: Legal and physical addresses -->
                                                             <td class="column-stack footer-cell" valign="top" style="font-family: 'Raleway', Arial, sans-serif; font-size: 11px; line-height: 18px; color: #777777;" mc:edit="footer_addresses">
                                                                 You are receiving this information as a senior leader in communications, corporate/government affairs or ESG/sustainability.
-                                                                <br /><br />
-                                                                Our mailing address is:<br />
-                                                                Hong Kong: Andrews Partnership 46/F Lee Garden One, 33 Hysan Avenue, Causeway Bay, Hong Kong<br />
-                                                                Singapore: UIC Buiilding, 5 Shenton Way #10-01 068808 Singapore<br />
+                                                                <br><br>
+                                                                Our mailing address is:<br>
+                                                                Hong Kong: Andrews Partnership 46/F Lee Garden One, 33 Hysan Avenue, Causeway Bay, Hong Kong<br>
+                                                                Singapore: UIC Buiilding, 5 Shenton Way #10-01 068808 Singapore<br>
                                                                 Australia: Level 9, 187 Macquarie Street, Sydney, 2000, Australia
-                                                                <br /><br />
+                                                                <br><br>
                                                                 &copy; Andrews Partnership 2026. All rights reserved.
                                                             </td>
                                                             <!-- Right Column: Brand-Colored LinkedIn Icon -->
                                                             <td class="column-stack social-links" width="140" valign="bottom" align="right" style="padding-left: 20px;">
                                                                 <a href="https://www.linkedin.com/company/andrews-partnership/" target="_blank" style="text-decoration: none; display: inline-block;">
-                                                                    <img src="https://img.icons8.com/ios-filled/40/1a2651/linkedin.png" alt="LinkedIn" width="24" height="24" style="display: block; border: 0; margin-left: auto;" />
+                                                                    <img src="https://img.icons8.com/ios-filled/40/1a2651/linkedin.png" alt="LinkedIn" width="24" height="24" style="display: block; border: 0; margin-left: auto;">
                                                                 </a>
                                                             </td>
                                                         </tr>
